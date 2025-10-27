@@ -41,19 +41,19 @@ class GoalieClicker {
         // Конфигурация относительно background
         this.config = {
             "bg": {
-                "path": "background.png",
+                "path": "./assets/background.png",
                 "width": 1024,
                 "height": 1470,
                 "aspectRatio": 1024/1470
             },
             "goalieL": {
-                "img": "keepL.png",
+                "img": "./assets/keepL.png",
                 "x_rel": 0.21,
                 "y_rel": 0.35,
                 "scale": 0.42
             },
             "goalieR": {
-                "img": "keepR.png", 
+                "img": "./assets/keepR.png", 
                 "x_rel": 0.45,
                 "y_rel": 0.35,
                 "scale": 0.42
